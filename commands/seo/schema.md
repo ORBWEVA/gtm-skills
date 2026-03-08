@@ -3,7 +3,7 @@ name: seo schema
 description: Generate or validate Schema.org structured data in JSON-LD format
 ---
 
-Run the Schema Generation/Validation from `~/.claude/skills/seo-audit/SKILL.md`.
+Run the Schema Generation/Validation from `~/.claude/skills/seo-toolkit/SKILL.md`.
 
 **If generating schema:**
 1. Read the page content (URL, file, or description)

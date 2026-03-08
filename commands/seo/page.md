@@ -3,7 +3,7 @@ name: seo page
 description: Full single-page SEO audit with scoring (0-100)
 ---
 
-Run the SEO Page Audit from `~/.claude/skills/seo-audit/SKILL.md`.
+Run the SEO Page Audit from `~/.claude/skills/seo-toolkit/SKILL.md`.
 
 1. Read the page — URL (fetch it), file path, or ask the user
 2. Score across all 5 categories: Content (30), Structure (20), Technical (25), Multilingual (15), Authority (10)

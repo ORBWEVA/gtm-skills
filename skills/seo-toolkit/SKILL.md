@@ -1,5 +1,5 @@
 ---
-name: seo-audit
+name: seo-toolkit
 description: Single-page SEO analysis and scoring. Use when user wants to audit a page for SEO, check meta tags, validate schema, review hreflang, or optimize on-page elements. Triggers on "SEO audit", "page SEO", "check my SEO", "meta tags", "schema markup", "hreflang", or /seo commands.
 ---
 

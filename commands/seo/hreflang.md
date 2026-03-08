@@ -3,7 +3,7 @@ name: seo hreflang
 description: Validate hreflang tags for multilingual sites
 ---
 
-Run the Hreflang Validation from `~/.claude/skills/seo-audit/SKILL.md`.
+Run the Hreflang Validation from `~/.claude/skills/seo-toolkit/SKILL.md`.
 
 1. Read the page(s) — URL, file path, or sitemap
 2. Extract all hreflang tags from the page(s)

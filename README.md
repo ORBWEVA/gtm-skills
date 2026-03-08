@@ -129,7 +129,7 @@ Zero executable code. Pure markdown — structured prompts that guide Claude's t
 ```
 skills/gtm-launch/SKILL.md     # GTM methodology
 skills/geo/SKILL.md            # GEO scoring + optimization
-skills/seo-audit/SKILL.md      # SEO auditing + schema + hreflang
+skills/seo-toolkit/SKILL.md      # SEO auditing + schema + hreflang
 commands/gtm/*.md              # 6 GTM slash commands
 commands/geo/*.md              # 4 GEO slash commands
 commands/seo/*.md              # 4 SEO slash commands
