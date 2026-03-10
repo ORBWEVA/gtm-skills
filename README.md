@@ -4,7 +4,7 @@ GTM, GEO & SEO skills for Claude Code. Launch smarter. Rank in AI search. Optimi
 
 ## What's inside
 
-Three skill sets, 11 slash commands:
+Three skill sets, 14 slash commands:
 
 ### GTM (Go-To-Market)
 
@@ -14,7 +14,10 @@ Three skill sets, 11 slash commands:
 | `/gtm:channels` | Channel-market fit matrix + 30-day action plans |
 | `/gtm:pricing` | Value-based pricing analysis + competitive benchmarking |
 | `/gtm:launch` | Pre-launch checklist (product, marketing, tech, legal) |
+| `/gtm:outreach` | Cold email + LinkedIn sequences with personalization scoring |
+| `/gtm:landing` | Landing page CRO audit with scoring and copy fixes |
 | `/gtm:metrics` | North star + KPI framework + measurement plan |
+| `/gtm:growth` | PLG growth loops, referrals, activation, free tools |
 
 ### GEO (Generative Engine Optimization)
 
@@ -80,6 +83,45 @@ answering the question. Move the definition to sentence 1
 to increase extractability by ~10 points.
 ```
 
+### `/gtm:outreach` for a B2B SaaS
+
+```
+SPARK EMAIL — Touch 1
+======================
+Subject: Your QA bottleneck after the Series A
+
+Hi [Name], noticed you're hiring 3 backend engineers — congrats
+on the round. Scaling the team usually means regression testing
+becomes the bottleneck within 8 weeks.
+
+[Product] auto-generates regression suites from PR diffs.
+[Similar Co] cut their QA cycle from 4 hours to 20 minutes
+after their Series A hire wave.
+
+Worth a 15-min look at your repo? I can show you live.
+
+PERSONALIZATION: Level 4 (funding trigger + hiring signal)
+```
+
+### `/gtm:landing` on a SaaS landing page
+
+```
+LANDING PAGE CRO SCORE
+========================
+Value Prop Clarity:  6/10  — takes 2 sentences to understand
+Headline:            4/10  — "Reimagine Your Workflow" (vague)
+CTA Hierarchy:       8/10  — clear, above fold
+Visual Hierarchy:    7/10  — clean but hero image distracts
+Trust Signals:       3/10  — no testimonials, no logos
+Objection Handling:  2/10  — pricing page only, no free trial mention
+Friction:            9/10  — email-only signup
+─────────────────────────────
+TOTAL:              39/70 (Needs work)
+
+#1 QUICK WIN: Add 2-3 customer testimonials with specific
+results near the CTA. Expected impact: +5-8 points.
+```
+
 ### `/seo:page` on a landing page
 
 ```
@@ -101,18 +143,16 @@ Estimated impact: +5-8 points.
 ## How the skills connect
 
 ```
-/gtm:positioning  -->  /gtm:channels  -->  /gtm:pricing
-       |                                        |
-       v                                        v
-/gtm:metrics  <--  /gtm:launch  <--  /seo:page + /geo:score
+PLAN:    /gtm:positioning → /gtm:channels → /gtm:pricing
+BUILD:   /gtm:landing + /gtm:outreach (parallel)
+LAUNCH:  /seo:page + /geo:score → /gtm:launch → /gtm:metrics
+GROW:    /gtm:growth
 ```
 
-1. Start with positioning (who are you for?)
-2. Pick channels (where will you reach them?)
-3. Set pricing (what will you charge?)
-4. Define metrics (how will you know it's working?)
-5. Run the launch checklist (is everything ready?)
-6. Audit your pages with SEO + GEO before going live
+1. **Plan** — positioning (who?), channels (where?), pricing (how much?)
+2. **Build** — audit your landing page, write outreach sequences
+3. **Launch** — SEO + GEO audit your pages, run the checklist, set up metrics
+4. **Grow** — design growth loops, referrals, activation optimization
 
 ## CJK-aware
 
@@ -127,10 +167,10 @@ All SEO skills adjust automatically for CJK (Chinese, Japanese, Korean):
 Zero executable code. Pure markdown — structured prompts that guide Claude's thinking. No scripts, no dependencies, no API calls, no shell commands.
 
 ```
-skills/gtm-launch/SKILL.md     # GTM methodology
+skills/gtm-launch/SKILL.md     # GTM methodology (8 stages)
 skills/geo/SKILL.md            # GEO scoring + optimization
-skills/seo-toolkit/SKILL.md      # SEO auditing + schema + hreflang
-commands/gtm/*.md              # 6 GTM slash commands
+skills/seo-toolkit/SKILL.md    # SEO auditing + schema + hreflang
+commands/gtm/*.md              # 9 GTM slash commands
 commands/geo/*.md              # 4 GEO slash commands
 commands/seo/*.md              # 4 SEO slash commands
 package.json                   # metadata only
