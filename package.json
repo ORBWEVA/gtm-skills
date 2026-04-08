@@ -1,10 +1,18 @@
 {
   "name": "gtm-skills",
   "version": "1.0.0",
-  "description": "GTM, GEO & SEO skills for Claude Code — launch smarter, rank in AI search, optimize every page",
-  "keywords": ["claude-code", "skills", "gtm", "go-to-market", "geo", "seo", "generative-engine-optimization"],
+  "description": "GTM, GEO & SEO skills for Claude Code \u2014 launch smarter, rank in AI search, optimize every page",
+  "keywords": [
+    "claude-code",
+    "skills",
+    "gtm",
+    "go-to-market",
+    "geo",
+    "seo",
+    "generative-engine-optimization"
+  ],
   "author": "ORBWEVA",
-  "license": "MIT",
+  "license": "CC-BY-NC-SA-4.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/ORBWEVA/gtm-skills.git"
