@@ -2,8 +2,8 @@
   "name": "gtm-skills",
   "owner": {"name": "ORBWEVA"},
   "plugins": [
-    {"name":"geo","source":{"source":"github","repo":"ORBWEVA/gtm-skills"},"description":"Generative Engine Optimization — optimize content for AI search engines (ChatGPT, Perplexity, Google AI Overviews, Gemini). Use when user wants to rank in AI search, improve AI citability, audit con","version":"1.0.0","author":{"name":"ORBWEVA"}},
-    {"name":"gtm-launch","source":{"source":"github","repo":"ORBWEVA/gtm-skills"},"description":"Go-to-market launch framework for products and features. Use when user wants to plan a launch, define positioning, evaluate channels, set pricing strategy, or build a KPI framework. Triggers on \"go t","version":"1.0.0","author":{"name":"ORBWEVA"}},
-    {"name":"seo-toolkit","source":{"source":"github","repo":"ORBWEVA/gtm-skills"},"description":"Single-page SEO analysis and scoring. Use when user wants to audit a page for SEO, check meta tags, validate schema, review hreflang, or optimize on-page elements. Triggers on \"SEO audit\", \"page SE","version":"1.0.0","author":{"name":"ORBWEVA"}}
+    {"name":"geo","source":{"source":"url","url":"https://github.com/ORBWEVA/gtm-skills.git"},"description":"Generative Engine Optimization — optimize content for AI search engines (ChatGPT, Perplexity, Google AI Overviews, Gemini). Use when user wants to rank in AI search, improve AI citability, audit con","version":"1.0.0","author":{"name":"ORBWEVA"}},
+    {"name":"gtm-launch","source":{"source":"url","url":"https://github.com/ORBWEVA/gtm-skills.git"},"description":"Go-to-market launch framework for products and features. Use when user wants to plan a launch, define positioning, evaluate channels, set pricing strategy, or build a KPI framework. Triggers on \"go t","version":"1.0.0","author":{"name":"ORBWEVA"}},
+    {"name":"seo-toolkit","source":{"source":"url","url":"https://github.com/ORBWEVA/gtm-skills.git"},"description":"Single-page SEO analysis and scoring. Use when user wants to audit a page for SEO, check meta tags, validate schema, review hreflang, or optimize on-page elements. Triggers on \"SEO audit\", \"page SE","version":"1.0.0","author":{"name":"ORBWEVA"}}
   ]
 }
